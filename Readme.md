@@ -37,14 +37,15 @@ while maintaining structured data storage in a database.
 
 2. Build the application using jar:
    If you're in the Remitly directory, use the following command in cmd:
-    java -jar target\Remitly-0.0.1-SNAPSHOT.jar
+
+     java -jar target\Remitly-0.0.1-SNAPSHOT.jar
 
 
 3. The API should now be available at `http://localhost:8080`
 
-## API Endpoints
-
-### Retrieve Details of a Single SWIFT Code
+## API Endpoints 
+### You can use Postman to test the API endpoints.
+### Retrieve Details of a Single SWIFT Code 
 
 **GET** `/v1/swift-codes/{swift-code}`
 
