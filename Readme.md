@@ -33,7 +33,7 @@ while maintaining structured data storage in a database.
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/swift-codes-api.git
+   git clone https://github.com/Deslej/Remitly.git
 
 2. Build the application using jar:
    If you're in the Remitly directory, use the following command in cmd:
