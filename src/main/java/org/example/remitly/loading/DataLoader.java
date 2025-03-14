@@ -40,7 +40,7 @@ public class DataLoader implements CommandLineRunner {
         String countryIso2Code = val[0].toUpperCase();
         String swiftCode = val[1];
         String name = val[3].toUpperCase();
-        String adress = val[4].isEmpty() ? "N/A" : val[4];
+        String adress = val[4];
         String countryName = val[6].toUpperCase();
         boolean isHeadquarter = val[1].endsWith("XXX");
         return new Bank(adress,name,countryIso2Code,countryName,isHeadquarter,swiftCode);
